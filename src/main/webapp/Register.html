@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset>
+<legend> <h4>Fill Form </h4></legend>
+<form action="register" method="post">
+<table> 
+<tr>
+<th> Firstname: </th>
+<td><input type="text" name="01" required="required" >    </td>
+</tr>
+<tr>
+<th> mobile :</th>
+<td><input type="tel" name="02" pattern="[0-9]{10}"  required="required">    </td>
+</tr>
+<tr>
+<th> Email: </th>
+<td><input type="email" name="03" required="required">    </td>
+</tr>
+<tr>
+<th> Gender :</th>
+<td>
+<input type="radio"  value="Male" name="04"  required="required" > Male 
+<input type="radio" value="Female" name="04"> Female </td>
+</tr>
+
+<tr>
+<th> Create Password :</th>
+<td><input type="Password" name="05" required="required">    </td>
+
+</tr>
+<tr>
+<th> Confirm Password :</th>
+<td><input type="Password" name="06" required="required">    </td>
+</tr>
+
+<tr>
+<th> Date of birth :</th>
+<td><input type="date" name="07" required="required">    </td>
+</tr>
+<tr>
+<th> <button type="reset"> Cancel</button> <br> <br> </th>
+<th> <button > Create Account</button> <br> <br>
+</th>
+
+</table>
+</form> 
+<a href="Login.html"> Already Account Existed Click here To Login <button> Login</button></a>
+</fieldset> 
+</body>
+</html>
